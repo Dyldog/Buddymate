@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62429AE02705AB9700F74B3E /* BuddymateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62429ADF2705AB9700F74B3E /* BuddymateApp.swift */; };
+		62429AE22705AB9700F74B3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62429AE12705AB9700F74B3E /* ContentView.swift */; };
+		62429AE42705AB9800F74B3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62429AE32705AB9800F74B3E /* Assets.xcassets */; };
+		62429AE72705AB9800F74B3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62429AE62705AB9800F74B3E /* Preview Assets.xcassets */; };
+		62429AEE2705ABBA00F74B3E /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62429AED2705ABBA00F74B3E /* Friend.swift */; };
+		62429AF02705ABF600F74B3E /* Meeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62429AEF2705ABF500F74B3E /* Meeting.swift */; };
+		62429AF22705B10F00F74B3E /* FriendDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62429AF12705B10F00F74B3E /* FriendDetailView.swift */; };
+		62429AF42705B1FE00F74B3E /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62429AF32705B1FE00F74B3E /* Database.swift */; };
+		62429AF62705BAE600F74B3E /* Float+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62429AF52705BAE600F74B3E /* Float+String.swift */; };
+		62429AF82705BB7F00F74B3E /* NumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62429AF72705BB7F00F74B3E /* NumberView.swift */; };
+		62429AFA2705BCC900F74B3E /* DatePickerPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62429AF92705BCC900F74B3E /* DatePickerPopover.swift */; };
+		62429AFD2705BE1900F74B3E /* SwiftUIDatePickerDialog in Frameworks */ = {isa = PBXBuildFile; productRef = 62429AFC2705BE1900F74B3E /* SwiftUIDatePickerDialog */; };
+		62429AFF2705C8BD00F74B3E /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62429AFE2705C8BD00F74B3E /* AlertView.swift */; };
+		62429B012705D6BA00F74B3E /* AddFriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62429B002705D6BA00F74B3E /* AddFriendView.swift */; };
+		62B22B4B2705E72F00E98246 /* Binding+DidSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B22B4A2705E72F00E98246 /* Binding+DidSet.swift */; };
+		62B22B502705EB4D00E98246 /* TextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B22B4F2705EB4D00E98246 /* TextEditor.swift */; };
+		62B22B562705ED3F00E98246 /* HighlightedTextEditor in Frameworks */ = {isa = PBXBuildFile; productRef = 62B22B552705ED3F00E98246 /* HighlightedTextEditor */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		62429ADC2705AB9700F74B3E /* Buddymate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Buddymate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62429ADF2705AB9700F74B3E /* BuddymateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuddymateApp.swift; sourceTree = "<group>"; };
+		62429AE12705AB9700F74B3E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		62429AE32705AB9800F74B3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62429AE62705AB9800F74B3E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		62429AED2705ABBA00F74B3E /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		62429AEF2705ABF500F74B3E /* Meeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meeting.swift; sourceTree = "<group>"; };
+		62429AF12705B10F00F74B3E /* FriendDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendDetailView.swift; sourceTree = "<group>"; };
+		62429AF32705B1FE00F74B3E /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		62429AF52705BAE600F74B3E /* Float+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float+String.swift"; sourceTree = "<group>"; };
+		62429AF72705BB7F00F74B3E /* NumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberView.swift; sourceTree = "<group>"; };
+		62429AF92705BCC900F74B3E /* DatePickerPopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerPopover.swift; sourceTree = "<group>"; };
+		62429AFE2705C8BD00F74B3E /* AlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		62429B002705D6BA00F74B3E /* AddFriendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendView.swift; sourceTree = "<group>"; };
+		62B22B4A2705E72F00E98246 /* Binding+DidSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+DidSet.swift"; sourceTree = "<group>"; };
+		62B22B4F2705EB4D00E98246 /* TextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62429AD92705AB9700F74B3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B22B562705ED3F00E98246 /* HighlightedTextEditor in Frameworks */,
+				62429AFD2705BE1900F74B3E /* SwiftUIDatePickerDialog in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62429AD32705AB9700F74B3E = {
+			isa = PBXGroup;
+			children = (
+				62429ADE2705AB9700F74B3E /* Buddymate */,
+				62429ADD2705AB9700F74B3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62429ADD2705AB9700F74B3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62429ADC2705AB9700F74B3E /* Buddymate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62429ADE2705AB9700F74B3E /* Buddymate */ = {
+			isa = PBXGroup;
+			children = (
+				62429ADF2705AB9700F74B3E /* BuddymateApp.swift */,
+				62B22B5B2705F40500E98246 /* Views */,
+				62B22B572705F3CE00E98246 /* Model */,
+				62B22B592705F3ED00E98246 /* Extensions */,
+				62429AE32705AB9800F74B3E /* Assets.xcassets */,
+				62429AE52705AB9800F74B3E /* Preview Content */,
+			);
+			path = Buddymate;
+			sourceTree = "<group>";
+		};
+		62429AE52705AB9800F74B3E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				62429AE62705AB9800F74B3E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		62B22B572705F3CE00E98246 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				62429AED2705ABBA00F74B3E /* Friend.swift */,
+				62429AEF2705ABF500F74B3E /* Meeting.swift */,
+				62429AF32705B1FE00F74B3E /* Database.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		62B22B582705F3E000E98246 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				62429AE12705AB9700F74B3E /* ContentView.swift */,
+				62429AF12705B10F00F74B3E /* FriendDetailView.swift */,
+				62429B002705D6BA00F74B3E /* AddFriendView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		62B22B592705F3ED00E98246 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				62B22B4A2705E72F00E98246 /* Binding+DidSet.swift */,
+				62429AF52705BAE600F74B3E /* Float+String.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		62B22B5A2705F3F900E98246 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				62429AF72705BB7F00F74B3E /* NumberView.swift */,
+				62429AFE2705C8BD00F74B3E /* AlertView.swift */,
+				62429AF92705BCC900F74B3E /* DatePickerPopover.swift */,
+				62B22B4F2705EB4D00E98246 /* TextEditor.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		62B22B5B2705F40500E98246 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				62B22B5A2705F3F900E98246 /* Shared */,
+				62B22B582705F3E000E98246 /* Screens */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62429ADB2705AB9700F74B3E /* Buddymate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62429AEA2705AB9800F74B3E /* Build configuration list for PBXNativeTarget "Buddymate" */;
+			buildPhases = (
+				62429AD82705AB9700F74B3E /* Sources */,
+				62429AD92705AB9700F74B3E /* Frameworks */,
+				62429ADA2705AB9700F74B3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Buddymate;
+			packageProductDependencies = (
+				62429AFC2705BE1900F74B3E /* SwiftUIDatePickerDialog */,
+				62B22B552705ED3F00E98246 /* HighlightedTextEditor */,
+			);
+			productName = Buddymate;
+			productReference = 62429ADC2705AB9700F74B3E /* Buddymate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62429AD42705AB9700F74B3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					62429ADB2705AB9700F74B3E = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 62429AD72705AB9700F74B3E /* Build configuration list for PBXProject "Buddymate" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62429AD32705AB9700F74B3E;
+			packageReferences = (
+				62429AFB2705BE1900F74B3E /* XCRemoteSwiftPackageReference "swiftui-date-picker-dialog" */,
+				62B22B542705ED3F00E98246 /* XCRemoteSwiftPackageReference "HighlightedTextEditor" */,
+			);
+			productRefGroup = 62429ADD2705AB9700F74B3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62429ADB2705AB9700F74B3E /* Buddymate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62429ADA2705AB9700F74B3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62429AE72705AB9800F74B3E /* Preview Assets.xcassets in Resources */,
+				62429AE42705AB9800F74B3E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62429AD82705AB9700F74B3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62429AFA2705BCC900F74B3E /* DatePickerPopover.swift in Sources */,
+				62429B012705D6BA00F74B3E /* AddFriendView.swift in Sources */,
+				62B22B502705EB4D00E98246 /* TextEditor.swift in Sources */,
+				62B22B4B2705E72F00E98246 /* Binding+DidSet.swift in Sources */,
+				62429AF42705B1FE00F74B3E /* Database.swift in Sources */,
+				62429AF22705B10F00F74B3E /* FriendDetailView.swift in Sources */,
+				62429AEE2705ABBA00F74B3E /* Friend.swift in Sources */,
+				62429AF02705ABF600F74B3E /* Meeting.swift in Sources */,
+				62429AFF2705C8BD00F74B3E /* AlertView.swift in Sources */,
+				62429AE22705AB9700F74B3E /* ContentView.swift in Sources */,
+				62429AE02705AB9700F74B3E /* BuddymateApp.swift in Sources */,
+				62429AF62705BAE600F74B3E /* Float+String.swift in Sources */,
+				62429AF82705BB7F00F74B3E /* NumberView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		62429AE82705AB9800F74B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		62429AE92705AB9800F74B3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62429AEB2705AB9800F74B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Buddymate/Preview Content\"";
+				DEVELOPMENT_TEAM = 6CW3378X23;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dylan.buddymate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62429AEC2705AB9800F74B3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Buddymate/Preview Content\"";
+				DEVELOPMENT_TEAM = 6CW3378X23;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dylan.buddymate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62429AD72705AB9700F74B3E /* Build configuration list for PBXProject "Buddymate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62429AE82705AB9800F74B3E /* Debug */,
+				62429AE92705AB9800F74B3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62429AEA2705AB9800F74B3E /* Build configuration list for PBXNativeTarget "Buddymate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62429AEB2705AB9800F74B3E /* Debug */,
+				62429AEC2705AB9800F74B3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		62429AFB2705BE1900F74B3E /* XCRemoteSwiftPackageReference "swiftui-date-picker-dialog" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/globulus/swiftui-date-picker-dialog";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		62B22B542705ED3F00E98246 /* XCRemoteSwiftPackageReference "HighlightedTextEditor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Dyldog/HighlightedTextEditor";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		62429AFC2705BE1900F74B3E /* SwiftUIDatePickerDialog */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 62429AFB2705BE1900F74B3E /* XCRemoteSwiftPackageReference "swiftui-date-picker-dialog" */;
+			productName = SwiftUIDatePickerDialog;
+		};
+		62B22B552705ED3F00E98246 /* HighlightedTextEditor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 62B22B542705ED3F00E98246 /* XCRemoteSwiftPackageReference "HighlightedTextEditor" */;
+			productName = HighlightedTextEditor;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 62429AD42705AB9700F74B3E /* Project object */;
+}
