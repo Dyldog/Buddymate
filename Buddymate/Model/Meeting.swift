@@ -24,7 +24,7 @@ extension Meeting {
 extension TimeInterval {
     static let oneMinute: Int = 60
     static let oneHour: Int = TimeInterval.oneMinute * 60
-    static let oneDay: Int = TimeInterval.oneHour * 60
+    static let oneDay: Int = TimeInterval.oneHour * 24
     
     var days: Int {
         Int(self) / TimeInterval.oneDay
