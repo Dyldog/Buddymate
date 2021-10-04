@@ -76,6 +76,10 @@ extension Friend {
     }
 }
 
+extension Friend: SearchItem {
+    var title: String { name }
+}
+
 extension Friend {
     static var mocks: [Friend] { return [
         .init(name: "Bryant Best", desiredFrequency: 1, meetings: [.init(date: .now)]),

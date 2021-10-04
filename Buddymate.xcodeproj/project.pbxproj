@@ -21,6 +21,8 @@
 		62429AFD2705BE1900F74B3E /* SwiftUIDatePickerDialog in Frameworks */ = {isa = PBXBuildFile; productRef = 62429AFC2705BE1900F74B3E /* SwiftUIDatePickerDialog */; };
 		62429AFF2705C8BD00F74B3E /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62429AFE2705C8BD00F74B3E /* AlertView.swift */; };
 		62429B012705D6BA00F74B3E /* AddFriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62429B002705D6BA00F74B3E /* AddFriendView.swift */; };
+		628EA4D6270ADBCB0037012C /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628EA4D4270ADBCB0037012C /* SearchBar.swift */; };
+		628EA4D7270ADBCB0037012C /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628EA4D5270ADBCB0037012C /* SearchView.swift */; };
 		62B22B4B2705E72F00E98246 /* Binding+DidSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B22B4A2705E72F00E98246 /* Binding+DidSet.swift */; };
 		62B22B502705EB4D00E98246 /* TextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B22B4F2705EB4D00E98246 /* TextEditor.swift */; };
 		62B22B562705ED3F00E98246 /* HighlightedTextEditor in Frameworks */ = {isa = PBXBuildFile; productRef = 62B22B552705ED3F00E98246 /* HighlightedTextEditor */; };
@@ -41,6 +43,8 @@
 		62429AF92705BCC900F74B3E /* DatePickerPopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerPopover.swift; sourceTree = "<group>"; };
 		62429AFE2705C8BD00F74B3E /* AlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		62429B002705D6BA00F74B3E /* AddFriendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendView.swift; sourceTree = "<group>"; };
+		628EA4D4270ADBCB0037012C /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		628EA4D5270ADBCB0037012C /* SearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		62B22B4A2705E72F00E98246 /* Binding+DidSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+DidSet.swift"; sourceTree = "<group>"; };
 		62B22B4F2705EB4D00E98246 /* TextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,6 +115,8 @@
 				62429AE12705AB9700F74B3E /* ContentView.swift */,
 				62429AF12705B10F00F74B3E /* FriendDetailView.swift */,
 				62429B002705D6BA00F74B3E /* AddFriendView.swift */,
+				628EA4D4270ADBCB0037012C /* SearchBar.swift */,
+				628EA4D5270ADBCB0037012C /* SearchView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -229,8 +235,10 @@
 				62429AF42705B1FE00F74B3E /* Database.swift in Sources */,
 				62429AF22705B10F00F74B3E /* FriendDetailView.swift in Sources */,
 				62429AEE2705ABBA00F74B3E /* Friend.swift in Sources */,
+				628EA4D6270ADBCB0037012C /* SearchBar.swift in Sources */,
 				62429AF02705ABF600F74B3E /* Meeting.swift in Sources */,
 				62429AFF2705C8BD00F74B3E /* AlertView.swift in Sources */,
+				628EA4D7270ADBCB0037012C /* SearchView.swift in Sources */,
 				62429AE22705AB9700F74B3E /* ContentView.swift in Sources */,
 				62429AE02705AB9700F74B3E /* BuddymateApp.swift in Sources */,
 				62429AF62705BAE600F74B3E /* Float+String.swift in Sources */,
