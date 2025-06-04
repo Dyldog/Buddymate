@@ -20,6 +20,7 @@ struct ContentView: View {
     
     @State var showAddFriend: Bool = false
     @State var showAddMeeting: Bool = false
+    @State var showTimeline: Bool = false
     
     var body: some View {
         NavigationView {
@@ -74,6 +75,14 @@ struct ContentView: View {
                 }
             }
             .navigationTitle("Buddymates")
+            .toolbar {
+                Button {
+                    showTimeline = true
+                } label: {
+                    Image(systemName: "calendar")
+                }
+
+            }
         }
         .popover(isPresented: $showAddFriend, content: {
             AddFriendView { name, freq in
@@ -86,6 +95,18 @@ struct ContentView: View {
                 _ = database.logMeeting(for: selected)
                 showAddMeeting = false
             }
+        }
+        .popover(isPresented: $showTimeline) {
+            let info = friends.flatMap { friend in
+                friend.meetings.map { meeting in
+                    MeetingInfo(
+                        meeting: meeting,
+                        person: Person(friend: friend)
+                    )
+                }
+            }
+            
+            TimelineView(meetings: info)
         }
     }
 }

@@ -23,6 +23,7 @@
 		62429B012705D6BA00F74B3E /* AddFriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62429B002705D6BA00F74B3E /* AddFriendView.swift */; };
 		628EA4D6270ADBCB0037012C /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628EA4D4270ADBCB0037012C /* SearchBar.swift */; };
 		628EA4D7270ADBCB0037012C /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628EA4D5270ADBCB0037012C /* SearchView.swift */; };
+		628EA4D9270AE0400037012C /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628EA4D8270AE0400037012C /* TimelineView.swift */; };
 		62B22B4B2705E72F00E98246 /* Binding+DidSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B22B4A2705E72F00E98246 /* Binding+DidSet.swift */; };
 		62B22B502705EB4D00E98246 /* TextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B22B4F2705EB4D00E98246 /* TextEditor.swift */; };
 		62B22B562705ED3F00E98246 /* HighlightedTextEditor in Frameworks */ = {isa = PBXBuildFile; productRef = 62B22B552705ED3F00E98246 /* HighlightedTextEditor */; };
@@ -45,6 +46,7 @@
 		62429B002705D6BA00F74B3E /* AddFriendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendView.swift; sourceTree = "<group>"; };
 		628EA4D4270ADBCB0037012C /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		628EA4D5270ADBCB0037012C /* SearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		628EA4D8270AE0400037012C /* TimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
 		62B22B4A2705E72F00E98246 /* Binding+DidSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+DidSet.swift"; sourceTree = "<group>"; };
 		62B22B4F2705EB4D00E98246 /* TextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -117,6 +119,7 @@
 				62429B002705D6BA00F74B3E /* AddFriendView.swift */,
 				628EA4D4270ADBCB0037012C /* SearchBar.swift */,
 				628EA4D5270ADBCB0037012C /* SearchView.swift */,
+				628EA4D8270AE0400037012C /* TimelineView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 				62429AE02705AB9700F74B3E /* BuddymateApp.swift in Sources */,
 				62429AF62705BAE600F74B3E /* Float+String.swift in Sources */,
 				62429AF82705BB7F00F74B3E /* NumberView.swift in Sources */,
+				628EA4D9270AE0400037012C /* TimelineView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,7 +375,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"Buddymate/Preview Content\"";
 				DEVELOPMENT_TEAM = 6CW3378X23;
 				ENABLE_PREVIEWS = YES;
@@ -386,7 +390,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dylan.buddymate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -401,7 +405,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"Buddymate/Preview Content\"";
 				DEVELOPMENT_TEAM = 6CW3378X23;
 				ENABLE_PREVIEWS = YES;
@@ -416,7 +420,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dylan.buddymate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
